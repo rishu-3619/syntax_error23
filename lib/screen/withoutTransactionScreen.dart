@@ -6,8 +6,8 @@ import '../widgets/containerMain.dart';
 import '../widgets/drawer.dart';
 import '../widgets/entryBox.dart';
 
-class MainScreen extends StatelessWidget {
-  const MainScreen({Key? key}) : super(key: key);
+class WithoutTransactionScreen extends StatelessWidget {
+  const WithoutTransactionScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     String? username;
@@ -26,8 +26,6 @@ class MainScreen extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 child: Column(
                   children: [
-                    enterTransaction(
-                        amount: 200, dec_inc: 0, time: DateTime.now()),
                     EntryBox(
                       title: 'Canteen',
                       amount: 20,

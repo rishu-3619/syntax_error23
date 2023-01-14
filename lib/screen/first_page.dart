@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pay_check/screen/mainScreen.dart';
-import 'package:pay_check/widgets/new_transaction.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -27,7 +26,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "EXPENSE TRACKER",
+                  "PayCheck",
                   style: TextStyle(
                     color: Theme.of(context).primaryColor,
                     fontSize: 40.0,
@@ -54,7 +53,7 @@ class WelcomeScreen extends StatelessWidget {
                 ),
                 filled: true,
                 fillColor: Colors.white,
-                hintText: "Your Name Here",
+                hintText: "Enter your contact no.",
                 hintStyle: TextStyle(
                   color: Colors.black,
                   fontSize: 18.0,

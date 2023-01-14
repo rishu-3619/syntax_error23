@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pay_check/screen/first_page.dart';
 import 'package:pay_check/screen/mainScreen.dart';
+import 'package:pay_check/screen/withoutTransactionScreen.dart';
 import 'package:pay_check/widgets/submitButton.dart';
 import 'classes/transaction.dart';
 import 'widgets/containerMain.dart';
@@ -19,6 +20,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      routes: {
+        '/without': (context) => WithoutTransactionScreen(),
+      },
       debugShowCheckedModeBanner: false,
       title: 'PayCheck',
       theme: ThemeData(

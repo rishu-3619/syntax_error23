@@ -31,13 +31,9 @@ class _enterTransactionState extends State<enterTransaction> {
                     children: [
                       Center(
                         child: Text(
-                          widget.dec_inc == 1
-                              ? "+\u{20B9}${widget.amount}"
-                              : "-\u{20B9}${widget.amount}",
+                          "Add transaction",
                           style: TextStyle(
-                            color: ((widget.dec_inc == 1)
-                                ? Colors.green
-                                : Colors.red),
+                            color: Colors.black,
                             fontSize: 28.0,
                             fontWeight: FontWeight.bold,
                           ),
@@ -54,7 +50,16 @@ class _enterTransactionState extends State<enterTransaction> {
                 TextField(
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
-                    hintText: widget.dec_inc == 1 ? "Paid by:" : "Paid to:",
+                    hintText: "Amount:",
+                  ),
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                TextField(
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(),
+                    hintText: "Paid to:",
                   ),
                 ),
                 SizedBox(

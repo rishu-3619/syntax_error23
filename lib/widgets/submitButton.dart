@@ -23,7 +23,7 @@ class SubmitButton extends StatelessWidget {
                 fontWeight: FontWeight.bold),
           ),
         ),
-        onPressed: () => {entryBox = false},
+        onPressed: () => Navigator.pushNamed(context, '/without'),
       ),
     );
   }

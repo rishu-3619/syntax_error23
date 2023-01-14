@@ -50,11 +50,9 @@ class _EntryBoxState extends State<EntryBox> {
                 ),
               ),
               Text(
-                widget.dec_inc == 1
-                    ? "+\u{20B9}${widget.amount}"
-                    : "-\u{20B9}${widget.amount}",
+                "-\u{20B9}${widget.amount}",
                 style: TextStyle(
-                  color: ((widget.dec_inc == 1) ? Colors.green : Colors.red),
+                  color: Colors.red,
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
                 ),
