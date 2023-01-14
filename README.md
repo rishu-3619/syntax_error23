@@ -1,16 +1,5 @@
 # pay_check
 
-A new Flutter project.
+An app for tracking expenses easier than before, by detecting your transactions and giving you option to track it, just by a click on notification sent by app.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Contributors: Rishika || Sanidhya Bhatia || Shreya Shivkumar || Prerna Chandolia
